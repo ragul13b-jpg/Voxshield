@@ -1,0 +1,16 @@
+# Optional dependency for the AI-assisted deepfake/spoof voice detector
+# (app/analysis/deepfake_detector.py, AASIST model). NOT required for the
+# rest of VoxShield - everything else works without this.
+#
+# Install with:
+#   pip install -r requirements-ai.txt
+#
+# `torch` is a large (~500MB-2GB depending on platform) dependency. If you
+# only want CPU inference (recommended for this prototype - no GPU is
+# required or used), consider installing from PyTorch's CPU-only wheel
+# index instead, which is much smaller:
+#
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#
+# then skip the line below.
+torch

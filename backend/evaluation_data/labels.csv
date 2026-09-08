@@ -1,0 +1,4 @@
+filename,label,category
+natural.wav,genuine,clean
+synthetic.wav,spoof,clean
+noisy.wav,unlabeled,noisy
